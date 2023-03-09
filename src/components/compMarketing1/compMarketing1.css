@@ -1,0 +1,82 @@
+.marketing1{
+    width: 280px;
+    border-radius: 16px;
+    background-color: white;
+    height: 456px;
+}
+
+.imgPlanMarketing1{
+    margin-top: 22px;
+}
+
+.planMarketing1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 9px;
+}
+
+.detalleMarketing1{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(55, 55, 55, 1);
+    margin-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.circleIcon{        
+    border-radius: 50%;
+    width: 17px;
+    height: 17px; 
+    background-color: rgba(234, 54, 55, 0.2);    
+    float: none;    
+    margin-right: 5px ;
+}
+
+.bi-check{
+    padding-left: 1px;
+}
+
+.btnMarketing1{
+    font-family: 'Poppins';
+    font-weight: 600 ;
+    font-size: 18px ;
+    color: black ;
+    background-color: transparent;        
+    border-radius: 50px;    
+    border-color: black;
+    width: 250px;
+    height: 47px;
+    filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.25));
+}
+
+.btnMarketing2{
+    font-family: 'Poppins';
+    font-weight: 600 ;
+    font-size: 18px ;
+    color: white ;
+    background-color: rgba(243, 165, 5, 1);        
+    border-radius: 50px;    
+    width: 250px;
+    height: 47px;
+    filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.25));
+    border-style: none;
+
+}
+.listaPlanes{
+    height: 230px;
+}
+
+@media (max-width: 720px){
+    .imgPlanMarketing1{
+        height: 70px;
+        width: auto;
+    }
+    .marketing1{
+        margin-top: 28px;
+    }
+    
+}

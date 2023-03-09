@@ -1,0 +1,27 @@
+.fondoFooter{
+    background-color: #0C0C0C;
+    position: relative;    
+    /* top: -100px; */
+}
+.footerText, .footerText2{ 
+    margin-top: 15px;   
+    font-family: 'Nunito';    
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+
+.footerText{
+    margin-top: 15px;    
+}
+.footerText2{
+    padding-left: 3px;    
+}
+
+
+@media (max-width: 720px){
+    .footerText2{
+        margin-top: 5px;    
+    }
+
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700,600|Nunito:400,700,500,600');
+.navbar{
+    background-color: rgba(11,11,11,1);
+    border-color: aliceblue;
+    border: 1px none;    
+    min-height: 80px;
+}
+.navOptions, .nav-link, .btnNav{
+    color: white !important;
+    font-family: 'Nunito' !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;       
+    text-decoration: none;
+        
+}
+.btnNav{
+    background-color: rgba(235, 22, 54, 1) !important;
+    font-size: 18px !important ;
+    font-family: 'Poppins' !important ;
+    font-weight: 600 !important ;    
+    padding: 10px !important;
+    border-radius: 50px !important;
+}
+
+
+.dropdown-menu{
+    --bs-dropdown-padding-y: 0rem !important;
+}
+
+.dropItem{
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    text-decoration: none !important;
+    padding: 16px;
+    
+}
+.dropdown-menu-dark{
+    background-color: #242424;
+}
+.dropItem :hover{
+    color: red !important;
+}
+
+.circleDrop{       
+    border-radius: 50%;
+    width: 30px;
+    height: 30px; 
+    background-color:#FC3A3C;
+    float: none;    
+}
+
+.dropText{
+    width: 200px;
+}
+
+.btnNav:hover {
+    animation: heartBeat;
+    animation-duration: 3s;
+}
+
+@media (min-width: 768px) { 
+    .btnNav{        
+        border: 1px none !important;        
+        height: 47px;
+        width: 250px;         
+    }    
+ }
+
+ @media (min-width: 1100px) { 
+    .navOptions, .navCollapse{
+        margin-left: 3rem !important;
+        margin-right:3rem !important;
+    } 
+ }
+
+ @media (max-width: 1100px) { 
+    .navOptions, .navCollapse{
+        margin-left: 0.25rem !important;
+        margin-right:0.25rem !important;
+    } 
+ }
+
+ @media (max-width: 768px){
+    .navOptions{
+        padding: 20px 100px 20px 100px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        
+    }
+    .dropList{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 20px 100px 20px 100px;        
+    }
+    .show{
+        padding: 20px 0px 20px 0px ;
+    }
+    .btnNav{
+        margin: 40px 0px 40px 0;
+        width: 232px;
+    }
+    
+ }
+ 

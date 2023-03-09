@@ -1,0 +1,52 @@
+.diseño2{
+    width: 267px;
+    background-color: rgba(255, 255, 255, 1);
+    height: 283px;
+    border-radius: 20px;
+}
+
+.contTituloDiseño2{
+    background-color: rgba(12, 12, 12, 1);
+    height: 81px; 
+    position: relative;
+    top: 32px;    
+}
+
+.tituloDiseño2{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contImagenDiseño2{
+    margin-top: 70px;
+}
+
+@media (max-width: 720px){
+    .diseño2{
+        width: 150px;        
+        height: 160px;
+        border-radius: 12px;
+        margin: 16px 0 16px 0;
+    }
+
+    .contTituloDiseño2{        
+        height: 45px;         
+        top: 18px;    
+    }
+
+    .tituloDiseño2{        
+        font-size: 14px;        
+    }
+
+    .contImagenDiseño2{
+        margin-top: 30px;
+    }
+
+    .imgDiseño2{
+        width: 60px;
+        height: 60px;
+    }
+
+}

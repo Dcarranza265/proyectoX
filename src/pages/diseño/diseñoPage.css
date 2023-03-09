@@ -1,0 +1,60 @@
+.diseño-body{
+    background-color: #F5F5F5;;
+}
+.titulo1-Diseño{
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    color: rgba(12, 12, 12, 1);
+    margin-top: 52px;
+}
+
+.contenido1-Diseño{
+    margin-top: 32px;
+}
+
+.operacion1-Diseño{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgba(235, 22, 54, 1);
+}
+
+.seccion1-Diseño{
+    padding-bottom: 70px;
+}
+
+.seccion2-Diseño{
+    background-color: rgba(235, 22, 54, 1);
+    padding-bottom: 60px;
+}
+
+.titulo2Diseño{
+    padding-top: 28px;
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+
+.contDiseño2{
+    margin-top: 40px;
+}
+
+@media (max-width: 720px){
+    .titulo1-Diseño{        
+        font-size: 24px;
+        font-weight: 700;        
+        margin-top: 32px;
+    }
+
+    .titulo2Diseño{        
+        font-size: 24px;        
+    }
+    .seccion2-Diseño{
+        background-color: rgba(235, 22, 54, 1);
+        padding-bottom: 20px;
+    }
+    .contDiseño2{
+        margin-top: 20px;
+    }
+}

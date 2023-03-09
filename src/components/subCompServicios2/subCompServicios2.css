@@ -1,0 +1,37 @@
+.circleSubComp{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px; 
+    background-color:rgba(252, 58, 60, 0.1);
+}
+.tituloSubCompServicio2{
+    color: #EA3637 ;
+    font-family: 'Nunito' ;
+    font-size: 24px ;
+    font-weight: 700;
+    padding-top: 5px;
+}
+.descripcionSubCompServicio2{
+    color: #373737 ;
+    font-family: 'Nunito' ;
+    font-size: 20px ;
+    font-weight: 400;    
+}
+
+@media (max-width: 768px) { 
+    .circleSubComp{
+        width: 80px;
+        height: 80px;
+    }
+    .imgMark{
+        width: 55px;
+        height: 55px;
+    }
+    .tituloSubCompServicio2{
+        font-size: 18px;
+    } 
+    .descripcionSubCompServicio2{
+        font-size: 14px
+    }
+    
+ }

@@ -1,0 +1,69 @@
+.circle1{
+    margin-top: 60px;    
+    border-radius: 50%;
+    width: 93px;
+    height: 93px; 
+    background-color:#FC3A3C;
+    float: none;
+    margin-left: -12px;
+}
+.numHome2{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 120px;
+    color: black;    
+}
+.tituloHome2{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: 22px;
+}
+.descHome2{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 10px;
+    height: 78px;
+}
+.home2{
+    width: 200px;
+    margin-top: 20px;
+}
+.saberHome2{
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 15px;
+    color: rgba(234, 54, 55, 1);    
+    text-decoration: none;    
+}
+
+@media (max-width: 720px){
+    .numHome2{        
+        font-size: 95px;          
+    }
+    .circle1{
+        margin-top: 60px;         
+        width: 74px;
+        height: 74px;         
+        margin-left: -20px;
+    }
+    .imgDevice{
+        width: 45px;
+        height: 45px;
+    }
+
+    .tituloHome2{
+        font-size: 20px;
+        margin-top: 14px;
+    }
+    .descHome2{
+        font-size: 14px;
+        margin-top: 8px;
+        height: inherit;
+    }
+    .saberHome2{
+        margin-top: 8px;
+    }
+
+}

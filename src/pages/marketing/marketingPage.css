@@ -1,0 +1,20 @@
+.seccion1-Marketing{
+    background-color:#FC3A3C;
+    padding-bottom: 60px;
+}
+
+.titulo1Marketing{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 45px;    
+    color: white;
+    padding-top: 20px;    
+}
+
+@media (max-width: 720px){
+    .titulo1Marketing{        
+        font-size: 24px;    
+        color: white;
+        padding-top: 20px;    
+    }
+}

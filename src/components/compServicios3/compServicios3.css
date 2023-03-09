@@ -1,0 +1,58 @@
+.fondoCompServicio3 {    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background:url("../../img/curva-blanco.png") ;
+    background-repeat: no-repeat;
+    height: 300px;
+    /* padding-bottom: 60px; */
+}
+
+.compServicio3titulo{
+    font-family: 'Poppins';
+    font-weight: 700 ;
+    font-size: 38px ;
+}
+
+.SubServicio3{
+    font-family: 'Nunito';
+    font-weight: 400 ;
+    font-size: 20px ;
+}
+
+.btnServicio3{
+    font-family: 'Poppins';
+    font-weight: 600 ;
+    font-size: 18px ;
+    color: white ;
+    background-color: #EA3637 ;    
+    border-radius: 50px;
+    border: none;
+    width: 250px;
+    height: 47px;
+    filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.25));
+}
+.sub2{
+    max-width: 545px !important;
+}
+
+
+
+@media (max-width: 720px) { 
+    .btnServicio3{
+        font-size: 16px;
+        width: 232px;
+        height: 44px;
+        margin-top: 20px;
+    }
+    .fondoCompServicio3{
+        margin-bottom: -30px;
+        background: none;
+    }
+    .compServicio3titulo{        
+        font-size: 24px ;
+        text-align: center;
+    }
+    .SubServicio3{        
+        font-size: 16px ;
+        text-align: center;
+    }
+ }

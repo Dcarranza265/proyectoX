@@ -1,0 +1,36 @@
+.diseño1{
+    width: 247px;
+    height: 258px;
+    border-radius: 16px;
+    background-color: rgba(12, 12, 12, 1);
+}
+.tituloDiseño1{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(235, 22, 54, 1);  
+    margin-top: 16px; 
+}
+
+.descTituloDiseño1{
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);    
+}
+
+@media (max-width: 720px){
+    .diseño1{
+        width: 123px;
+        height: 128px;
+        border-radius: 8px; 
+        margin-top: 33px;       
+    }
+    .tituloDiseño1{        
+        font-size: 10px;         
+        margin-top: 6px; 
+    }
+    .descTituloDiseño1{   
+        font-size: 10px;          
+    }
+}

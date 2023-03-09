@@ -1,0 +1,63 @@
+.seccion1-Nosotros{
+    background-color: rgba(12, 12, 12, 1);
+    padding-bottom: 120px;
+    background-image:url("../../img/diseño-lt.png");
+    background-position-x: -200px;
+    background-position-y: -100px;
+}
+
+.titulo1Nosotros{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 50px;
+    color: white;  
+    padding-top: 60px;
+}
+
+.sub1Nosotros{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 20px;
+    color: white;  
+    padding-top: 16px;
+    padding-left: 200px;
+    padding-right: 200px;    
+}
+
+.compNosotros1{
+    padding-top: 120px;
+}
+
+.seccion2-Nosotros{
+    background-color:rgba(245, 245, 245, 1) ;
+}
+
+.titulo2Nosotros{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(234, 54, 55, 1);
+    padding-top: 40px ;
+}
+
+@media (max-width: 720px){
+    .titulo1Nosotros{        
+        font-size: 28px;        
+        padding-top: 30px;
+    }
+    .sub1Nosotros{        
+        font-size: 16px;         
+        padding-top: 16px;
+        padding-left: 0px;
+        padding-right: 0px;    
+    }
+
+    .compNosotros1{
+        padding-top: 40px;
+    }
+
+    .titulo2Nosotros{        
+        font-size: 28px;        
+        padding-top: 40px ;
+    }
+}

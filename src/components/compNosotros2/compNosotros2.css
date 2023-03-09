@@ -1,0 +1,54 @@
+.circleAvatar{       
+    border-radius: 50%;
+    width: 42px;
+    height: 42px; 
+    background-color:#FC3A3C;        
+}
+
+.nosotros2{
+    width: 235px;
+    margin-top: 32px;
+}
+.tituloNosotros2{
+    margin-top: 14px;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;    
+    color: rgba(12, 12, 12, 1);
+}
+
+.puestoNosotros2{
+    font-family: Nunito;
+    margin-top: 7px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(57, 58, 62, 1);       
+}
+
+.redesNosotros{
+    margin-top: 12px;
+}
+
+.contenidoAvatar{
+    padding-bottom: 75px;
+}
+
+@media (max-width: 720px){
+    .imgAvatar{
+        width: 129px;
+    }
+
+    .tituloNosotros2{        
+        font-size: 22px;        
+    }
+
+    .puestoNosotros2{        
+        font-size: 16px;               
+    }    
+    .nosotros2{        
+        margin-top: 24px;
+    }
+    .contenidoAvatar{
+        padding-bottom: 40px;
+    }
+}
